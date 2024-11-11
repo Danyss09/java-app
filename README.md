@@ -1,4 +1,3 @@
-```markdown
 # Java-app
 
 ## Project Description
@@ -14,15 +13,21 @@ This project is a simple Java application that displays the message: **"Distribu
 ## How to Install and Run the Project
 To run this project on your system using Docker, follow these steps:
 
-### 1. Clone the repository
-(This is optional if the project is on GitHub)
+### 1. Clone the repository (Optional)
+If you want to clone the project, run the following commands:
 
 ```bash
 git clone <REPOSITORY_URL>
 cd <DIRECTORY_NAME>
 ```
 
-### 2. Build the Docker image
+Alternatively, you can pull the Docker image directly from Docker Hub:
+
+```bash
+docker pull daniela0919/javaapp:1.0
+```
+
+### 2. Build the Docker image (Skip this step if you pulled the image directly)
 
 ```bash
 docker build -t daniela0919/javaapp:1.0 .
